@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max Mustermann | Freelance Programmierer</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: #ccc;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333;
+            padding: 20px 0;
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+        header h1 {
+            margin: 0;
+            color: #fff;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            color: #ccc;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #fff;
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            color: #fff;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+            position: relative;
+            padding-left: 20px;
+        }
+        ul li::before {
+            content: "✔";
+            color: #00cc66;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        footer {
+            background-color: #333;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 30px;
+        }
+        footer p {
+            margin: 0;
+            color: #aaa;
+        }
+        button {
+            background-color: #444;
+            color: #ccc;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #555;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+    <script>
+        function showMessage() {
+            alert('Vielen Dank für Ihr Interesse! Ich freue mich auf Ihre Nachricht.');
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Max Mustermann</h1>
+        <p>Freelance Programmierer | Automatisierungen & Webentwicklung</p>
+    </header>
+    <nav>
+        <a href="#about">Über mich</a>
+        <a href="#services">Leistungen</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>Über mich</h2>
+            <p>Ich bin Max Mustermann, ein selbst ausgebildeter Programmierer aus Österreich, der jetzt in Zürich lebt. 
+                Meine Kernkompetenzen liegen in Python, JavaScript, CSS und HTML. Ich habe mich darauf spezialisiert, 
+                Unternehmen bei der Automatisierung ihrer Prozesse zu unterstützen.</p>
+        </section>
+        <section id="services" class="section">
+            <h2>Leistungen</h2>
+            <ul>
+                <li>Automatisierung von Geschäftsprozessen</li>
+                <li>Webentwicklung (Frontend & Backend)</li>
+                <li>Individuelle Softwarelösungen</li>
+                <li>Beratung für effiziente Workflows</li>
+            </ul>
+        </section>
+        <section id="contact" class="section">
+            <h2>Kontakt</h2>
+            <p>Interessiert an einer Zusammenarbeit? Hier können Sie mich erreichen:</p>
+            <p><strong>E-Mail:</strong> <a href="mailto:dein.email@example.com" style="color: #ccc;">dein.email@example.com</a></p>
+            <p><strong>Telefon:</strong> +41 79 123 45 67</p>
+            <button onclick="showMessage()">Nachricht senden</button>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Max Mustermann. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
