@@ -52,3 +52,94 @@
 .language-switch:hover #language-dropdown {
     display: block; 
 }
+/* Allgemeine Stile */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #cfcfcf;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2a2a2a;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #ffffff;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4caf50;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #4caf50;
+    color: #ffffff;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form input, form textarea {
+    background-color: #333;
+    color: #cfcfcf;
+}
+
+form button {
+    background-color: #4caf50;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #3a8b40;
+}
