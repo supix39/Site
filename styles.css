@@ -1,8 +1,8 @@
 .language-switch {
-    position: relative;
-    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 20px;
     text-align: right;
-    margin: 10px;
 }
 
 #language-button {
@@ -107,7 +107,8 @@ footer {
     background-color: #2a2a2a;
     color: #ffffff;
     text-align: center;
-    padding: 10px 0;
+    margin-top: 15px;
+    padding: 8px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
