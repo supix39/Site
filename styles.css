@@ -190,9 +190,15 @@ a:hover {
 }
 
 .info-container {
+    display: inline-block;
     text-align: left;
     padding: 20px;
     margin-top: 15px;
+    border: 1px solid #4caf50;
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    max-width: 600px;
 }
 
 .info-list {
