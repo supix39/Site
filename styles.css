@@ -190,11 +190,11 @@ a:hover {
 }
 
 .info-list {
+    text-align: left;
     margin: 0 auto;
     max-width: 500px;
     list-style-type: disc;
     padding-left: 20px;
-    text-align: left;
 }
 
 .info-list li {
