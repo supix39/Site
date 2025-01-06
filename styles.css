@@ -172,7 +172,7 @@ a:hover {
 
 .email-box {
     background-color: #1e1e1e;
-    padding: 15px 20px;
+    padding: 15px 30px;
     border-radius: 5px;
     display: inline-block;
     margin: 15px 0;
@@ -194,7 +194,6 @@ a:hover {
     margin: 0 auto;
     max-width: 500px;
     list-style-type: disc;
-    padding-left: 20px;
 }
 
 .info-list li {
