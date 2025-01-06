@@ -116,36 +116,6 @@ footer {
     justify-content: center;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-form label {
-    font-weight: bold;
-}
-
-form input, form textarea, form button {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-}
-
-form input, form textarea {
-    background-color: #333;
-    color: #cfcfcf;
-}
-
-form button {
-    background-color: #4caf50;
-    color: #ffffff;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #3a8b40;
-}
 section {
     margin-bottom: 40px;
 }
@@ -178,4 +148,55 @@ a:hover {
 .skill img {
     width: 50px;
     height: 50px;
+}
+
+
+.contact-section {
+    padding: 20px;
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.contact-section h2 {
+    color: #4caf50;
+    margin-bottom: 15px;
+}
+
+.contact-section p {
+    margin-bottom: 15px;
+}
+
+.email-box {
+    background-color: #1e1e1e;
+    padding: 15px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 15px 0;
+}
+
+.email-link {
+    font-size: 18px;
+    color: #4caf50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
+
+.info-list {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 500px;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.info-list li {
+    margin-bottom: 10px;
 }
