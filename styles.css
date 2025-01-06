@@ -194,6 +194,7 @@ a:hover {
     max-width: 500px;
     list-style-type: disc;
     padding-left: 20px;
+    text-align: left;
 }
 
 .info-list li {
